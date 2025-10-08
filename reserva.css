@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
+
     body{
-        background-color:;
-        color:;
+        background-color:#30799e;
+        color:#30799e;
         font-family: Georgia, 'Times New Roman', Times, serif;
         line-height: 1.6;
     }
     header{
-        background-color:;
-        color:;
+        background-color:#30799e;
+        color:#30799e;
         padding: 15px;
         text-align: center;
         margin-bottom: 20px;
@@ -21,7 +22,7 @@
         margin: 10px;
     }
     nav a{
-        color:;
+        color:#30799e;
         margin: 0 10px;
         text-decoration: none;
         font-weight: bold;
@@ -29,15 +30,15 @@
     
     nav a:hover{
         text-decoration: underline;
-        color:;
-        background-color:;
+        color:#30799e;
+        background-color:#30799e;
         padding: 5px;
     }
     
     h1{
         font-size: 2.2em;
         margin-bottom: 5px;
-        color:;
+        color:#30799e;
     }
 
     .contato-info{
@@ -52,7 +53,7 @@
         margin: 5px 0;
     }
     .contato-midia a{
-        color:;
+        color:#30799e;
         margin: 0 5px;
         text-decoration: none;
     }
