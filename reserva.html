@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVAS</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sabor da Vila</h1>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">MENU</a>
+            <a href="#">RESERVAS</a>
+            <a href="#">SOBRE NÓS</a>
+            <a href="#">GALERIA</a>
+            <a href="#">CONTATO</a>
+            <a href="#">EVENTOS/PROMOÇÕES</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contato-info">
+            <h2>Informações para Reserva
+            </h2>
+            <p>Estamos sempre prontos para ouvir você! Entre em contato pelos canais abaixo:</p>
+            <ul>
+                <li><strong>Email</strong> contato@sabordavila.com</li>
+                <li><strong>Telefone</strong> (11) 1111-1111 </li>
+                <li><strong>Endereço:</strong> Rua das Hortências, 128 - Vila da Colina</li>
+            </ul>
+            <div class="contato-midia">
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">Facebook</a>
+            </div>
+        </section>
+
+
+        <section class="formulario">
+            <h2>Formulário para Agendamento</h2>
+            <form action="" method="post" class="formulario-card">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" required> <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required> <br><br>
+
+                <label for="telefone"> Telefone:</label><br>
+                <input type="text" id="telefone" required> <br><br>
+
+                <label for="whatsapp"> Whatsapp:</label><br>
+                <input type="text" id="whatsapp" required> <br><br>
+
+                <label for="data">Data:</label><br>
+                <input type="text" id="data" required> <br><br>
+
+
+                <p>Prefere contato por:</p>
+                <div class="formulario-checkbox">
+                    <label for="email">Email</label>
+                    <input type="checkbox" name="contato_pref" value="email" id="email"><br><br>
+                    <label for="telefone">Telefone</label>
+                    <input type="checkbox" name="contato_pref" value="telefone" id="telefone"><br><br>
+                    <label for="whatsapp">Whatsapp</label>
+                    <input type="checkbox" name="contato_pref" value="whatsapp" id="whatsapp"><br><br>
+                </div>
+
+                <label for="mensagem">Observações:</label><br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea> <br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+
+        <section class="mapa">
+            <h2>Onde estamos</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.9541858774837!2d-46.5210324272823!3d-23.67759631882024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42755efe6fb9%3A0x64415e2e2b1d61fa!2sR.%20das%20Hort%C3%AAncias%2C%20128%20-%20Jardim%20do%20Est%C3%A1dio%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009175-500!5e0!3m2!1sen!2sbr!4v1759932248534!5m2!1sen!2sbr"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <!--SOBRE-->
+        <section class="secao_footer"> 
+
+            <div class="secao_div">
+                <h4>Sobre</h4>
+                <p>Bem vindo ao <strong>Sabor da Vila</strong>! Aqui você entra de estômago vazio e sai satisfeito, cheio de memórias afetivas. </p>
+            </div>
+    
+            <!--Links Úteis-->
+            <div class="secao_div">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">RESERVAS</a></li>
+        <li><a href="#">SOBRE NÓS</a></li>
+        <li> <a href="#">GALERIA</a></li>
+        <li> <a href="#">CONTATO</a></li>
+        <li> <a href="#">EVENTOS/PROMOÇÕES</a></li>
+                </ul>
+            </div>
+    
+            <!--Redes Sociais-->
+            <div class="secao_div">
+                <h4>Siga-nos</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">Spotify</a></li>
+                </ul>
+            </div> 
+            
+        </section>
+        <div class="secao_paragrafo">
+            <p>&copy;2025 - Sabor da Vila</p>
+        </div>
+        
+    </footer>
+
+
+</body>
+
+</html>
