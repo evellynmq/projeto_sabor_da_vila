@@ -5,30 +5,48 @@
 }
 /*body*/
 body {
-    background-color: #f4d0c0;
-    color: #a27f19;
+    background-color:#dbffee;
+    color:#305c4d;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
-nav {
-    margin-top: 10px;
+header{
+    background-color: #305c4d;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
 }
-nav a {
-    color: #4e4f3d;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
+
+nav{
+    margin-top: 10px ;
+}
+nav a{
+    color: #dac861;
+    font-weight: bold; 
+    margin: 0 10px; 
+    text-decoration: none; 
 }
 nav a:hover{
-    text-decoration: underline;
+    background-color: #187551;
     color: #fff;
-    background-color: #f4d0c0;
     padding: 5px;
+    text-decoration: underline; 
 }
+
 h1{
     font-size: 2.2em;
     margin-bottom: 5px;
-    color: #2e3819;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
 }
 /*informações contato*/
 
@@ -55,7 +73,7 @@ h1{
     max-width: 600px;
     margin: 0 auto 40px auto;
 }
-.formulario-card {
+.formulario_card {
     background-color: #fff;
     border-radius: 8px;
     display: flex;
@@ -64,45 +82,47 @@ h1{
     padding: 20px;
     padding: 20px;
 }
-.formulario-card label{
+.formulario_card label{
     font-weight: bold;
     margin-bottom: 4px;
     color: #333;
 }
-.formulario-card input, select, textarea{
+.formulario_card input, select, textarea{
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 14px;
     padding: 10px;
-    transition: border-color 0.3s, box-shadow 0.3s; /*explicação proxima aula*/
+    transition: border-color 0.3s, box-shadow 0.3s; 
     width: 100%;
 }
-.formulario-card input:focus, select:focus, textarea:focus{
-    border-color: #ff6600;
-    box-shadow: 0 0 5px rgba(255, 102, 0, 0.5); /*explicação proxima aula*/
+.formulario_card input:focus, select:focus, textarea:focus{
+    border-color: #305c4d;
+    box-shadow: 0 0 5px rgba(32, 66, 56, 0.7); /*explicação proxima aula*/
     outline: none; /*explicação proxima aula*/
 }/*a partir do momento que eu clicar, vai dar uma coloração diferente quando passar o cursor por cima*/
 
 /*div checkbox*/
 
-.formulario-checkbox{
+.formulario_checkbox{
     display: flex;
     gap: 15px;
-    flex-wrap: wrap;
+   
     font-size: 14px;
 }
-.formulario-card button{
-    background-color: #ff6600;
+.formulario_card button{
+    background-color: #305c4d;
     border: none;
     border-radius: 6px;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    margin-left: 230px;
+    margin-top: 30px;
     padding: 12px;
     transition: background 0.3s;
 }
-.formulario.card button:hover{
-    background-color: #cc5200;
+.formulario_card button:hover{
+    background-color: #1f3830;
 }
 .mapa{
     max-width: 900px;
@@ -115,10 +135,10 @@ h1{
 
 /*estilização do footer*/
 .footer{
-    background-color: #4e4f3d;
+    background-color: #23463a;
     color: #eee;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .secao_footer{
     display: flex;
@@ -129,20 +149,20 @@ h1{
     max-width: 1100px;
 }
 .secao_div{
-    flex: 1 1 250px; /*pesquisar*/
+    flex: 1 1 250px; 
 }
 .secao_div h4{
-    color: #f4d0c0;
+    color: #187551;
     font-size: 15px;
     margin-bottom: 15px;
-    text-transform: uppercase; /*pesquisar*/
+    text-transform: uppercase; 
 }
 .secao_div p{
     font-size: 14px;
     line-height: 1.6;
 }
 .secao_div ul{
-    list-style: none; 
+    list-style: none;
     padding: 0;
 }
 .secao_div ul li{
@@ -151,18 +171,18 @@ h1{
 .secao_div ul li a{
     color: #ccc;
     text-decoration: none;
-    transition: color 0.3 ease; /*pesquisar*/
+    transition: color 0.3 ease; 
 }
 .secao_div ul li a:hover{
-    color: #0e110e;
+    color: #187551;
 }
 .secao_paragrafo{
-    color: #aaa;
-    border-top: 1px solid #333;
+    text-align: center;
+    margin-top: 1px solid #333;
+    color: #ccc;
     font-size: 13px;
-    margin-top: 25px;
     padding-top: 15px;
+    margin-top: 25px;
     text-align: center;
 }
-
 
