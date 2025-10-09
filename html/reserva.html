@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESERVAS</title>
-    <link rel="stylesheet" href="../css/reserva.css">
+    <link rel="stylesheet" href="../css/reserva.cssreserva.css">
 </head>
 
 <body>
@@ -13,12 +13,12 @@
     <header>
         <h1>Sabor da Vila</h1>
         <nav>
-            <a href="#">HOME</a>
+            <a href="input.html">HOME</a>
             <a href="#">MENU</a>
-            <a href="#">RESERVAS</a>
+            <a href="reserva.html">RESERVAS</a>
             <a href="#">SOBRE NÓS</a>
             <a href="#">GALERIA</a>
-            <a href="#">CONTATO</a>
+            <a href="contato.html">CONTATO</a>
             <a href="#">EVENTOS/PROMOÇÕES</a>
         </nav>
     </header>
@@ -35,45 +35,77 @@
                 <li><strong>Endereço:</strong> Rua das Hortências, 128 - Vila da Colina</li>
             </ul>
             <div class="contato-midia">
-                <a href="#">Instagram</a>
-                <a href="#">TikTok</a>
-                <a href="#">Facebook</a>
+                <a href="#"><strong>Instagram</strong></a>
+                <a href="#"><strong>TikTok</strong></a>
+                <a href="#"><strong>Facebook</strong></a>
             </div>
         </section>
 
 
         <section class="formulario">
-            <h2>Formulário para Agendamento</h2>
+            <h2>Formulário para Reservas</h2>
             <form action="" method="post" class="formulario-card">
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" required> <br><br>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required> <br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" required> <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required> <br>
 
-                <label for="telefone"> Telefone:</label><br>
-                <input type="text" id="telefone" required> <br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" required> <br>
 
-                <label for="whatsapp"> Whatsapp:</label><br>
-                <input type="text" id="whatsapp" required> <br><br>
+                <label for="whatsapp">Whatsapp:</label>
+                <input type="text" id="whatsapp" required> <br>
 
-                <label for="data">Data:</label><br>
-                <input type="text" id="data" required> <br><br>
+                <label for="data">Data (funcionamos de segunda-feira à sabado):</label>
+                <input type="text" id="data" required> <br>
+
+                <label for="numero">Número de pessoas:</label>
+                <select name="numero" id="numero">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                </select><br>
+
+                <label for="horario">Horários disponíveis (funcionamento 11:30 às 22:00):</label>
+                <select name="horario" id="horario">
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                </select><br>
 
 
-                <p>Prefere contato por:</p>
+                <p><strong>Entraremos em contato pelo meio de sua preferência a seguir para confirmar o agentamento da
+                        reserva:</strong></p>
+
                 <div class="formulario-checkbox">
-                    <label for="email">Email</label>
-                    <input type="checkbox" name="contato_pref" value="email" id="email"><br><br>
+                    <br> <label for="email">Email</label>
+                    <input type="checkbox" name="contato_pref" value="email" id="email"><br>
                     <label for="telefone">Telefone</label>
-                    <input type="checkbox" name="contato_pref" value="telefone" id="telefone"><br><br>
+                    <input type="checkbox" name="contato_pref" value="telefone" id="telefone"><br>
                     <label for="whatsapp">Whatsapp</label>
-                    <input type="checkbox" name="contato_pref" value="whatsapp" id="whatsapp"><br><br>
-                </div>
+                    <input type="checkbox" name="contato_pref" value="whatsapp" id="whatsapp">
+                </div><br>
 
-                <label for="mensagem">Observações:</label><br>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea> <br><br>
-                <button type="submit">Enviar</button>
+                <div class="formulario-mensagem">
+                    <label for="mensagem">Observações:</label><br>
+                    <textarea name="mensagem" id="mensagem" cols="20" rows="05"></textarea> <br><br>
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         </section>
 
@@ -90,29 +122,30 @@
 
 
     <footer class="footer">
-        <!--SOBRE-->
-        <section class="secao_footer"> 
+
+        <section class="secao_footer">
 
             <div class="secao_div">
                 <h4>Sobre</h4>
-                <p>Bem vindo ao <strong>Sabor da Vila</strong>! Aqui você entra de estômago vazio e sai satisfeito, cheio de memórias afetivas. </p>
+                <p>Bem vindo ao <strong>Sabor da Vila</strong>! Aqui você entra de estômago vazio e sai satisfeito,
+                    cheio de memórias afetivas. </p>
             </div>
-    
-            <!--Links Úteis-->
+
+
             <div class="secao_div">
                 <h4>Links Úteis</h4>
                 <ul>
                     <li><a href="#">HOME</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">RESERVAS</a></li>
-        <li><a href="#">SOBRE NÓS</a></li>
-        <li> <a href="#">GALERIA</a></li>
-        <li> <a href="#">CONTATO</a></li>
-        <li> <a href="#">EVENTOS/PROMOÇÕES</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">RESERVAS</a></li>
+                    <li><a href="#">SOBRE NÓS</a></li>
+                    <li> <a href="#">GALERIA</a></li>
+                    <li> <a href="#">CONTATO</a></li>
+                    <li> <a href="#">EVENTOS/PROMOÇÕES</a></li>
                 </ul>
             </div>
-    
-            <!--Redes Sociais-->
+
+
             <div class="secao_div">
                 <h4>Siga-nos</h4>
                 <ul>
@@ -120,13 +153,13 @@
                     <li><a href="#">TikTok</a></li>
                     <li><a href="#">Spotify</a></li>
                 </ul>
-            </div> 
-            
+            </div>
+
         </section>
         <div class="secao_paragrafo">
             <p>&copy;2025 - Sabor da Vila</p>
         </div>
-        
+
     </footer>
 
 
