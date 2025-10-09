@@ -17,7 +17,7 @@
             <a href="#">MENU</a>
             <a href="reserva.html">RESERVAS</a>
             <a href="#">SOBRE NÓS</a>
-            <a href="#">GALERIA</a>
+            <a href="galeria.html">GALERIA</a>
             <a href="contato.html">CONTATO</a>
             <a href="#">EVENTOS/PROMOÇÕES</a>
         </nav>
@@ -57,11 +57,11 @@
                 <label for="whatsapp">Whatsapp:</label>
                 <input type="text" id="whatsapp" required> <br>
 
-                <label for="data">Data (funcionamos de segunda-feira à sabado):</label>
+                <label for="data">Data:</label>
                 <input type="text" id="data" required> <br>
 
                 <label for="numero">Número de pessoas:</label>
-                <select name="numero" id="numero">
+                <select name="numero" id="numero" required>
                     <option value="01">01</option>
                     <option value="02">02</option>
                     <option value="03">03</option>
@@ -74,8 +74,9 @@
                     <option value="10">10</option>
                 </select><br>
 
-                <label for="horario">Horários disponíveis (funcionamento 11:30 às 22:00):</label>
-                <select name="horario" id="horario">
+                <label for="horario">Horários disponíveis (funcionamento SEG - SEX: 11:00 às 22:00; SAB - DOM -
+                    FERIADOS: 11:00 às 18:00):</label>
+                <select name="horario" id="horario" required>
                     <option value="12:00">12:00</option>
                     <option value="13:00">13:00</option>
                     <option value="14:00">14:00</option>
@@ -89,8 +90,7 @@
                 </select><br>
 
 
-                <p><strong>Entraremos em contato pelo meio de sua preferência a seguir para confirmar o agentamento da
-                        reserva:</strong></p>
+                <p><strong>Entraremos em contato pelo meio de sua preferência a seguir para confirmar o agentamento da reserva:</strong></p>
 
                 <div class="formulario-checkbox">
                     <br> <label for="email">Email</label>
@@ -99,7 +99,7 @@
                     <input type="checkbox" name="contato_pref" value="telefone" id="telefone"><br>
                     <label for="whatsapp">Whatsapp</label>
                     <input type="checkbox" name="contato_pref" value="whatsapp" id="whatsapp">
-                </div><br>
+                </div required><br>
 
                 <div class="formulario-mensagem">
                     <label for="mensagem">Observações:</label><br>
@@ -137,10 +137,10 @@
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">MENU</a></li>
-                    <li><a href="#">RESERVAS</a></li>
+                    <li><a href="reserva.html">RESERVAS</a></li>
                     <li><a href="#">SOBRE NÓS</a></li>
-                    <li> <a href="#">GALERIA</a></li>
-                    <li> <a href="#">CONTATO</a></li>
+                    <li> <a href="galeria.html">GALERIA</a></li>
+                    <li> <a href="contato.html">CONTATO</a></li>
                     <li> <a href="#">EVENTOS/PROMOÇÕES</a></li>
                 </ul>
             </div>

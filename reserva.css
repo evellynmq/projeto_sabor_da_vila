@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 h1 {
-    color:#ccc;
+    color:#fff;
     font-size: 2.2em;
     margin-bottom: 5px;
 }
@@ -69,6 +69,7 @@ h1 {
 
 .formulario-card {
     background-color:#fff8cf;
+    border: 5px solid #dac861;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
