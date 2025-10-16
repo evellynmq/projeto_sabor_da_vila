@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box; 
+    margin: 0%;
+    padding: 0%;
+} 
+
+/*HEADER*/
+
+body{
+    background-color: #dbffee;
+    color: #305c4d;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+}
+
+header{
+    background-color: #305c4d;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+nav{
+    margin-top: 10px ;
+}
+nav a{
+    color: #dac861;
+    font-weight: bold; 
+    margin: 0 10px; 
+    text-decoration: none; 
+}
+nav a:hover{
+    background-color: #187551;
+    color: #fff;
+    padding: 5px;
+    text-decoration: underline; 
+}
+
+h1{
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+.section_galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    }
+    
+    .section_fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    }
+.section_fotos{
+    box-shadow: 6px 6px #187551;
+    border-radius: 6px;
+    height: 360px; 
+    margin: 10px 0;
+    object-fit: cover;
+    width: 100%; 
+}
+/*FOOTER*/
+
+.footer{
+    background-color: #273325;
+    color: #eee;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secao_footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1100px;
+}
+.secao_div{
+    flex: 1 1 250px; 
+}
+.secao_div h4{
+    color: #187551;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase; 
+}
+.secao_div p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+.secao_div ul{
+    list-style: none;
+    padding: 0;
+}
+.secao_div ul li{
+    margin-bottom: 8px;
+}
+.secao_div ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3 ease; 
+}
+.secao_div ul li a:hover{
+    color: #187551;
+}
+.secao_paragrafo{
+    text-align: center;
+    margin-top: 1px solid #333;
+    color: #ccc;
+    font-size: 13px;
+    padding-top: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
