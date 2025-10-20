@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESERVAS</title>
-    <link rel="stylesheet" href="../css/reserva.css">
+    <title>CONTATO</title>
+    <link rel="stylesheet" href="../css/contato.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Sabor da Vila</h1>
+        <h1>SABOR DA VILA</h1>
         <nav>
             <a href="input.html">HOME</a>
             <a href="#">MENU</a>
-            <a href="reserva.html">RESERVAS</a>
             <a href="#">SOBRE NÓS</a>
             <a href="galeria.html">GALERIA</a>
             <a href="contato.html">CONTATO</a>
@@ -24,26 +23,64 @@
     </header>
 
     <main>
-
         <section class="contato-info">
-            <h2>Informações para Reserva
-            </h2>
+            <h2>Informações para CONTATO e RESERVAS</h2>
             <p>Estamos sempre prontos para ouvir você! Entre em contato pelos canais abaixo:</p>
             <ul>
-                <li><strong>Email</strong> contato@sabordavila.com</li>
-                <li><strong>Telefone</strong> (11) 1111-1111 </li>
+                <li><strong>Email:</strong> contato@sabordavila.com</li>
+                <li><strong>Telefone:</strong> (11) 1111-1111 </li>
                 <li><strong>Endereço:</strong> Rua das Hortências, 128 - Vila da Colina</li>
             </ul>
+            
             <div class="contato-midia">
                 <a href="#"><strong>Instagram</strong></a>
                 <a href="#"><strong>TikTok</strong></a>
                 <a href="#"><strong>Facebook</strong></a>
-            </div>
+            </div><br><br>
+
+            <h2>Horários de funcionamento</h2>
+            <ul>
+                <li><strong>Segunda a Sexta:</strong> 11h00 às 22h00 </li>
+                <li><strong>Sábados, domingos e feriados>:</strong> 11h00 às 18h00</li>
+            </ul>
+            
         </section>
 
+        <section class="formulario">
+            <h2>Formulário para <strong>Contato</strong></h2>
+            <form action="" method="post" class="formulario-card">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required> <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required> <br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" required> <br>
+
+                <label for="whatsapp">Whatsapp:</label>
+                <input type="text" id="whatsapp" required> <br>
+
+                <p><strong>Entraremos em contato pelo meio de comunicação de sua preferência a seguir para confirmar o agentamento da reserva:</strong></p>
+
+                <div class="formulario-checkbox">
+                    <br> <label for="email">Email</label>
+                    <input type="checkbox" name="contato_pref" value="email" id="email"><br>
+                    <label for="telefone">Telefone</label>
+                    <input type="checkbox" name="contato_pref" value="telefone" id="telefone"><br>
+                    <label for="whatsapp">Whatsapp</label>
+                    <input type="checkbox" name="contato_pref" value="whatsapp" id="whatsapp">
+                </div required><br>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+
+            </form>
+        </section>
 
         <section class="formulario">
-            <h2>Formulário para Reservas</h2>
+            <h2>Formulário para <strong>Reservas</strong></h2>
             <form action="" method="post" class="formulario-card">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" required> <br>
@@ -90,7 +127,7 @@
                 </select><br>
 
 
-                <p><strong>Entraremos em contato pelo meio de sua preferência a seguir para confirmar o agentamento da reserva:</strong></p>
+                <p><strong>Entraremos em contato pelo meio de comunicação de sua preferência a seguir para confirmar o agentamento da reserva:</strong></p>
 
                 <div class="formulario-checkbox">
                     <br> <label for="email">Email</label>
@@ -137,7 +174,6 @@
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">MENU</a></li>
-                    <li><a href="reserva.html">RESERVAS</a></li>
                     <li><a href="#">SOBRE NÓS</a></li>
                     <li> <a href="galeria.html">GALERIA</a></li>
                     <li> <a href="contato.html">CONTATO</a></li>
