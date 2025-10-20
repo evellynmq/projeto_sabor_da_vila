@@ -1,17 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+*{
+    box-sizing: border-box; 
+    margin: 0%;
+    padding: 0%;
+} 
 
-body {
+body{
     background-color: #dbffee;
     color: #305c4d;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
 
-header {
+header{
     background-color: #305c4d;
     color: #fff;
     margin-bottom: 20px;
@@ -19,25 +19,23 @@ header {
     text-align: center;
 }
 
-nav {
-    margin: 10px;}
-
-nav a {
-    color: #dac861;
-    font-weight: bold;
-    margin: 0 10px;
-    text-decoration: none;
+nav{
+    margin-top: 10px ;
 }
-
-nav a:hover {
+nav a{
+    color: #dac861;
+    font-weight: bold; 
+    margin: 0 10px; 
+    text-decoration: none; 
+}
+nav a:hover{
     background-color: #187551;
     color: #fff;
     padding: 5px;
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
-h1 {
-    color:#fff;
+h1{
     font-size: 2.2em;
     margin-bottom: 5px;
 }
@@ -45,6 +43,10 @@ h1 {
 .contato-info {
     text-align: center;
     margin-bottom: 30px;
+    max-width: 600px;         /* largura máxima do bloco */
+    margin: 50px auto;        /* centraliza horizontalmente */
+    text-align: left;         /* texto alinhado à esquerda */
+    padding: 20px;
 }
 
 .contato-info ul {
@@ -56,9 +58,13 @@ h1 {
     margin: 5px 0;
 }
 
+.contato-midia{
+    text-align: center;        
+}
+
 .contato-midia a {
     color:#998004;
-    margin: 0 5px;
+    margin: 05px auto;                  
     text-decoration: none;
 }
 
