@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/contato.css">
+</head>
+
+<body>
+
+    <!--------------------------Header--------------------------------->
+    <header>
+        <h1> SABOR DA VILA </h1>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="#">MENU</a>
+            <a href="sobre.html">SOBRE NÓS</a>
+            <a href="contato.html">CONTATO</a>
+        </nav>
+    </header>
+    <!--------------------------Main---------------------------------->
+
+    <main>
+        <section class="contato_info">            
+
+                <h2>Informações de contato</h2>
+                <p>Estamos sempre prontos para ouvir você! Entre em contato pelos canais abaixo:</p>
+    
+                <ul>
+                    <li><strong>Email:</strong>contato@sabordavida.com</li>
+                    <li><strong>Telefone:</strong>11 95286-5485</li>
+                </ul>
+
+                <h2>Horários de funcionamento</h2>
+                <ul>
+                    <li><strong>Segunda a Sexta:</strong> 11h00 às 22h00 </li>
+                    <li><strong>Sábados, domingos e feriados:</strong> 11h00 às 18h00</li>
+                </ul>
+                <div class="contato_midia">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Youtube</a>
+                </div>
+
+               
+
+        </section>
+
+        <section class="formulario">
+            <h2>Formulário de contato</h2>
+            <form action="" method="post" class="formulario_card">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+                <br>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" required>
+                <br>
+
+                <p>Por qual canal de comunicação você prefere receber nossas mensagens?</p>
+                <div class="formulario_checkbox">
+                    <label for="email">E-mail</label>
+                    <input type="checkbox" name="contato_pref" value="e-mail" id="e-mail"><br>
+                    <br>
+                    <label for="telefone">Telefone</label>
+                    <input type="checkbox" name="contato_pref" value="telefone" id="telefone"><br>
+                    <br>
+                    <label for="Whatsapp">WhatsApp</label>
+                    <input type="checkbox" name="contato_pref" value="Whatsapp" id="Whatsapp"><br>
+                    <br>
+                    <label for="nenhuma">Não quero ser comunicado(a)</label>
+                    <input type="checkbox" name="contato_pref" value="nenhuma" id="nenhuma"><br>
+                    <br><br>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+
+        <!------------------------MAPA-------------------------------->
+
+        <section class="mapa">
+            <h2>Onde estamos:</h2>
+            <iframe
+                src="
+               https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.719574410764!2d-46.5210324272823!3d-23.67759631882024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42755efe6fb9%3A0x64415e2e2b1d61fa!2sR.%20das%20Hort%C3%AAncias%2C%20128%20-%20Jardim%20do%20Est%C3%A1dio%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009175-500!5e1!3m2!1spt-BR!2sbr!4v1759931609470!5m2!1spt-BR!2sbr"
+                width="100%" height="300" style="border: 1px;;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <!-----------------------Footer------------------------------------>
+
+    <footer class="footer">
+
+        <!--SOBRE-->
+
+        <section class="secao_footer">
+
+            <div class="secao_div">
+                <h4>Sobre</h4>
+                <p>bem vindo ao <strong>Sabor da Vila</strong>! Aqui você entra de estômago vazio e sai satisfeito cheio
+                    de memórias afetivas. </p>
+            </div>
+
+            <!--Links Úteis-->
+
+            <div class="secao_div">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="../html/reserva.html">RESERVAS</a></li>
+                    <li><a href="../html/sobre.html">SOBRE NÓS</a></li>
+                    <li> <a href="#">GALERIA</a></li>
+                    <li> <a href="../html/contato.html">CONTATO</a></li>
+                    <li> <a href="#">EVENTOS/PROMOÇÕES</a></li>
+                </ul>
+            </div>
+
+            <!--Redes Sociais-->
+
+            <div class="secao_div">
+                <h4>Siga-nos</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+
+        </section>
+        <div class="secao_paragrafo">
+            <p>&copy;2025 - Sabor da Vila</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
